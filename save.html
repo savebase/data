@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<meta meta name="viewport" content="width=device-width, user-scalable=no" />
+<title>savebase ☁️</title>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<link rel="stylesheet" href="savebase.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+</head> 
+<body>
+    <section class="save">
+   <h1>Upload your data to save:</h1>
+   
+   <form action="https://formspree.io/f/xrgjnwen" method="POST">
+  <label id="one" for="fname" class="name">Secret number:</label><br>
+  <input type="number" id="fname" name="Date" placeholder="Write date..."><br>
+  <label id="two" for="lname" class="name">User email:</label><br>
+  <input type="email" id="lname" name="User email" placeholder="Email..."><br>
+  <p>Choose a term:</p>
+  <div class="typ">
+ <input type="radio" id="html" name="fav_language" value="IOS">
+ <label for="html">6 month</label><br>
+ <input type="radio" id="css" name="fav_language" value="android">
+ <label for="css">1 year</label><br>
+ <input type="radio" id="javascript" name="fav_language" value="desktop">
+ <label for="javascript">5 years</label>
+ </div>
+ <br>
+<input type="file" id="file-uploader" accept=".jpg, .jpeg, .png" name="File">
+ <br>
+ <div class="button">
+  <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+
+
+<div class="words2">
+    <h2>Attention!</h2>
+    <h3>You ought to fill all necessary places.</h3>
+    <h4>After uploading your files send all data to our base</h4>
+    <h5>Our system will secure and protect your data 🔐</h5>
+    <p>For checking your data you can visit your personal room to see your data and files </p>
+</div>
+<script src="save.js"></script>
+    </section>
